@@ -1,34 +1,44 @@
+
 @plugin "daisyui/theme" {
   name: "dim";
-  default: false;
-  prefersdark: false;
-  color-scheme: light;
+  default: false; /* set as default */
+  prefersdark: false; /* set as default dark mode (prefers-color-scheme:dark) */
+  color-scheme: dark; /* color of browser-provided UI */
+
   --color-base-100: oklch(30.8577% 0.023243 264.149498);
   --color-base-200: oklch(28.0368% 0.01983 264.182074);
   --color-base-300: oklch(26.3469% 0.018403 262.177739);
   --color-base-content: oklch(82.9011% 0.031335 222.959324);
-  --color-primary: oklch(17.2267% 0.028331 139.549991);
+  --color-primary: oklch(86.1335% 0.141656 139.549991);
   --color-primary-content: oklch(17.2267% 0.028331 139.549991);
-  --color-secondary: oklch(14.6752% 0.033181 35.353059);
+  --color-secondary: oklch(73.3759% 0.165904 35.353059);
   --color-secondary-content: oklch(14.6752% 0.033181 35.353059);
-  --color-accent: oklch(14.8459% 0.026728 311.37924);
+  --color-accent: oklch(74.2296% 0.133641 311.37924);
   --color-accent-content: oklch(14.8459% 0.026728 311.37924);
   --color-neutral: oklch(24.7311% 0.020483 264.094728);
   --color-neutral-content: oklch(82.9011% 0.031335 222.959324);
-  --color-info: oklch(17.2157% 0.028409 206.182959);
+  --color-info: oklch(86.0785% 0.142046 206.182959);
   --color-info-content: oklch(17.2157% 0.028409 206.182959);
-  --color-success: oklch(17.2343% 0.028437 166.534048);
+  --color-success: oklch(86.1717% 0.142187 166.534048);
   --color-success-content: oklch(17.2343% 0.028437 166.534048);
-  --color-warning: oklch(17.2327% 0.028447 94.818679);
+  --color-warning: oklch(86.1634% 0.142236 94.818679);
   --color-warning-content: oklch(17.2327% 0.028447 94.818679);
-  --color-error: oklch(16.4838% 0.019914 33.756357);
+  --color-error: oklch(82.4189% 0.09957 33.756357);
   --color-error-content: oklch(16.4838% 0.019914 33.756357);
+
+  /* border radius */
+  --radius-selector: 1.9rem;
+  --radius-field: 0.5rem;
   --radius-box: 1rem;
-  --radius-field: 0.25rem;
-  --radius-selector: 0.25rem;
+
+  /* base sizes */
   --size-selector: 0.25rem;
   --size-field: 0.25rem;
+
+  /* border size */
   --border: 1px;
+
+  /* effects */
   --depth: 0;
   --noise: 0;
 }
