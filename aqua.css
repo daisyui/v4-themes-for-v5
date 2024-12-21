@@ -1,0 +1,34 @@
+@plugin "daisyui/theme" {
+  name: "aqua";
+  default: false;
+  prefersdark: false;
+  color-scheme: light;
+  --color-base-100: oklch(48.7596% 0.127539 261.181672);
+  --color-base-200: oklch(45.3464% 0.118611 261.181672);
+  --color-base-300: oklch(41.9333% 0.109683 261.181672);
+  --color-base-content: oklch(89.7519% 0.025508 261.181672);
+  --color-primary: oklch(85.6617% 0.14498 198.6458);
+  --color-primary-content: oklch(40.1249% 0.068266 197.603872);
+  --color-secondary: oklch(12.1365% 0.02175 309.782946);
+  --color-secondary-content: oklch(12.1365% 0.02175 309.782946);
+  --color-accent: oklch(18.6854% 0.020445 94.555431);
+  --color-accent-content: oklch(18.6854% 0.020445 94.555431);
+  --color-neutral: oklch(12.2124% 0.023402 243.760661);
+  --color-neutral-content: oklch(12.2124% 0.023402 243.760661);
+  --color-info: oklch(90.923% 0.043042 262.880917);
+  --color-info-content: oklch(90.923% 0.043042 262.880917);
+  --color-success: oklch(12.541% 0.033982 149.213788);
+  --color-success-content: oklch(12.541% 0.033982 149.213788);
+  --color-warning: oklch(13.3168% 0.031484 58.31834);
+  --color-warning-content: oklch(13.3168% 0.031484 58.31834);
+  --color-error: oklch(14.79% 0.038 27.33);
+  --color-error-content: oklch(14.79% 0.038 27.33);
+  --radius-box: 1rem;
+  --radius-field: 0.25rem;
+  --radius-selector: 0.25rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --gloss: 1;
+  --noise: 0;
+}

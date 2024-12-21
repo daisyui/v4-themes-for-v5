@@ -1,0 +1,34 @@
+@plugin "daisyui/theme" {
+  name: "lemonade";
+  default: false;
+  prefersdark: false;
+  color-scheme: light;
+  --color-base-100: oklch(98.71% 0.02 123.72);
+  --color-base-200: oklch(91.8003% 0.0186 123.72);
+  --color-base-300: oklch(84.8906% 0.0172 123.72);
+  --color-base-content: oklch(19.742% 0.004 123.72);
+  --color-primary: oklch(11.784% 0.0398 134.6);
+  --color-primary-content: oklch(11.784% 0.0398 134.6);
+  --color-secondary: oklch(15.55% 0.0392 111.09);
+  --color-secondary-content: oklch(15.55% 0.0392 111.09);
+  --color-accent: oklch(17.078% 0.0402 100.73);
+  --color-accent-content: oklch(17.078% 0.0402 100.73);
+  --color-neutral: oklch(86.196% 0.015 108.6);
+  --color-neutral-content: oklch(86.196% 0.015 108.6);
+  --color-info: oklch(17.238% 0.0094 224.14);
+  --color-info-content: oklch(17.238% 0.0094 224.14);
+  --color-success: oklch(17.238% 0.0094 157.85);
+  --color-success-content: oklch(17.238% 0.0094 157.85);
+  --color-warning: oklch(17.238% 0.0094 102.15);
+  --color-warning-content: oklch(17.238% 0.0094 102.15);
+  --color-error: oklch(17.238% 0.0094 25.85);
+  --color-error-content: oklch(17.238% 0.0094 25.85);
+  --radius-box: 1rem;
+  --radius-field: 0.25rem;
+  --radius-selector: 0.25rem;
+  --size-selector: 0.25rem;
+  --size-field: 0.25rem;
+  --border: 1px;
+  --gloss: 1;
+  --noise: 0;
+}
